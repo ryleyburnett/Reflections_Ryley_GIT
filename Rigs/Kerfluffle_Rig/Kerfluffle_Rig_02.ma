@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff09 scene
 //Name: Kerfluffle_Rig_02.ma
-//Last modified: Sat, Sep 12, 2020 11:35:04 PM
+//Last modified: Sat, Sep 12, 2020 11:45:09 PM
 //Codeset: 1252
 requires maya "2018ff09";
 currentUnit -l centimeter -a degree -t film;
@@ -12,13 +12,13 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 createNode transform -s -n "persp";
 	rename -uid "738984C2-47C9-3F24-D48F-65BBCB814AF6";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 47.82349306553526 53.634089911801738 48.820155388898698 ;
-	setAttr ".r" -type "double3" -14.06956798488457 408.5999999986272 -1.2023656493069597e-15 ;
+	setAttr ".t" -type "double3" 100.2606237094388 24.000346719324874 66.476598728496143 ;
+	setAttr ".r" -type "double3" 0.93043201513645868 418.1999999985793 -9.4308037449402012e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "26D0FB88-4FD3-D46D-2015-B383344D719E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 63.004174724416629;
+	setAttr ".coi" 114.34583307732778;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -25921,7 +25921,7 @@ createNode joint -n "Forehead_JNT" -p "Head_JNT";
 	setAttr ".t" -type "double3" 0 12.863017705753627 -0.38177174499512478 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 6.6000000000000005;
+	setAttr ".radi" 4.3000000000000007;
 createNode joint -n "Antennae_01_JNT" -p "Forehead_JNT";
 	rename -uid "9B62B6FD-4381-9159-04E7-9AAE97245D2C";
 	setAttr ".t" -type "double3" 0 6.485226007625279 -0.12740200588225559 ;
@@ -26208,7 +26208,7 @@ createNode groupParts -n "groupParts4";
 	setAttr ".ihi" 0;
 	setAttr ".ic" -type "componentList" 1 "vtx[*]";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "D68F114E-458D-5518-7234-89A700D09ACC";
+	rename -uid "64F86372-471C-7DB3-55B0-08B140016DF5";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -73.809520876596963 -226.19046720247457 ;
 	setAttr ".tgi[0].vh" -type "double2" 72.619044733426037 235.71427634784192 ;
